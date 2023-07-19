@@ -85,13 +85,13 @@ li {
     background: rgba(11, 2, 35, 0.10);
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 .header_content .nav ul li button a {
     margin: 0 10px;
 }
-.header_content .nav ul li button a:nth-child(1) {
-    color: #F61C0D;
-}
+
 
 /*----------- Banner Section Start ----------- */
 .banner {
@@ -119,22 +119,15 @@ li {
     margin-bottom: 40px;
 }
 .bnr_text ul li a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin: 16px 0 0;
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
 }
-.bnr_text ul li a i {
+.bnr_text ul li a img {
     margin-right: 10px;
-}
-.bnr_text ul li:nth-child(1) a i {
-    color: #FF42A5;
-    margin-right: 20px;
-}
-.bnr_text ul li:nth-child(2) a i {
-    color: #FF42A5;
-    margin-right: 15px;
 }
 .bnr_text .rogue_btn {
     background: #4EC5F7;
