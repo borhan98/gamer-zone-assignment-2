@@ -260,8 +260,8 @@ li {
 }
 .play_instantly .photo .img_short {
     position: absolute;
-    top: 360px;
-    right: 70%;
+    bottom: -80px;
+    left: -180px;
 }
 
 /*----------- Play Games Section Start ----------- */
@@ -283,8 +283,8 @@ li {
 }
 .play_games  .photo .img_short {
     position: absolute;
-    top: 360px;
-    left: 70%;
+    bottom: -60px;
+    right: -181px;
 }
 
 /*----------- Careers Section Start ----------- */
