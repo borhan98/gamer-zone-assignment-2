@@ -211,8 +211,6 @@ li {
 .funny_content .card .photo .overlay a {
     color: #383838;
     display: inline-block;
-    padding: 20px;
-    background: #FFFFFF;
     border-radius: 50%;
     margin-bottom: 15px;
 }
@@ -399,16 +397,6 @@ li {
     grid-template-columns: repeat(6, 50px);
     gap: 50px;
     justify-content: center;
-}
-.media ul li a {
-    font-size: 30px;
-    color: white;
-}
-.media ul li:nth-child(2) a {
-    color: #1877F2;
-}
-.media ul li:nth-child(3) a {
-    color: #FF0000;
 }
 .footer_content small {
     color: rgba(255, 255, 255, 0.60);
