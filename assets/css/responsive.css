@@ -1,0 +1,151 @@
+/*--------------- Mobile View -------------------*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: auto;
+        padding: 0 2px;
+    }
+    .header_content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header_content .logo {
+        gap: 8px;
+    }
+    .header_content .logo img {
+        width: 50px;
+    }
+    .header_content .logo h3 {
+        font-size: 40px;
+    }
+    .header_content .nav ul li a, .header_content .nav ul li button {
+        font-size: 16px;
+    }
+    .header_content .nav ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .bnr_content {
+        flex-direction: column;
+    }
+    .bnr_text {
+        order: 2;
+        width: 315px;
+        margin: 40px auto 0;
+    }
+    .bnr_content .bnr_text h2 {
+        font-size: 36px;
+    }
+    .bnr_content .bnr_text h1 {
+        font-size: 75px;
+    }
+    .bnr_text ul li a {
+        font-size: 16px;
+    }
+    .btn_common {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    .bnr_text .rogue_btn {
+        margin-left: 5px;
+    }
+    .bnr_photo img {
+        width: 100%;
+    }
+}
+
+/*--------------- Tablet View -------------------*/
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 0 15px;
+    }
+    .header_content .logo {
+        gap: 8px;
+    }
+    .header_content .logo img {
+        width: 50px;
+    }
+    .header_content .logo h3 {
+        font-size: 40px;
+    }
+    .header_content .nav ul li a, .header_content .nav ul li button {
+        font-size: 16px;
+    }
+    .header_content .nav ul {
+        gap: 15px;
+    }
+    .bnr_content {
+        gap: 30px;
+    }
+    .bnr_text {
+        width: 70%;
+    }
+    .bnr_content .bnr_text h2 {
+        font-size: 36px;
+    }
+    .bnr_content .bnr_text h1 {
+        font-size: 75px;
+    }
+    .bnr_text ul li a {
+        font-size: 16px;
+    }
+    .btn_common {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    .bnr_text .rogue_btn {
+        margin-left: 5px;
+    }
+    .bnr_photo img {
+        width: 100%;
+    }
+}
+
+/*--------------- Laptop View -------------------*/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 90%;
+        
+    }
+    .header_content .logo {
+        gap: 8px;
+    }
+    .header_content .logo img {
+        width: 50px;
+    }
+    .header_content .logo h3 {
+        font-size: 40px;
+    }
+    .header_content .nav ul li a, .header_content .nav ul li button {
+        font-size: 16px;
+    }
+    .header_content .nav ul {
+        gap: 15px;
+    }
+    .bnr_content {
+        gap: 20px;
+    }
+    .bnr_text {
+        width: 80%;
+    }
+    .bnr_content .bnr_text h2 {
+        font-size: 30px;
+    }
+    .bnr_content .bnr_text h1 {
+        font-size: 60px;
+    }
+    .bnr_text ul li a {
+        font-size: 16px;
+    }
+    .btn_common {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    .bnr_text .rogue_btn {
+        margin-left: 5px;
+    }
+    .bnr_photo img {
+        width: 100%;
+    }
+}
