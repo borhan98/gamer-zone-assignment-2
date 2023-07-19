@@ -148,6 +148,17 @@
     .career_content .text .btn_common {
         margin-bottom: 32px;
     }
+    .single_game a {
+        padding: 5px;
+    }
+    .all_games .single_game span {
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .all_games .single_game a img {
+        width: 20px;
+    }
 }
 
 /*--------------- Medium device View -------------------*/
@@ -290,6 +301,17 @@
     .career_content .text .btn_common {
         margin-bottom: 32px;
     }
+    .single_game a {
+        padding: 8px;
+    }
+    .all_games .single_game span {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .all_games .single_game a img {
+        width: 25px;
+    }
 }
 
 /*--------------- Large device View -------------------*/
@@ -427,6 +449,17 @@
     .career_content .text .btn_common {
         margin-bottom: 32px;
     }
+    .single_game a {
+        padding: 10px;
+    }
+    .all_games .single_game span {
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .all_games .single_game a img {
+        width: 25px;
+    }
 }
 
 /*--------------- Extra Large device View -------------------*/
@@ -551,5 +584,16 @@
     }
     .career_content .text .btn_common {
         margin-bottom: 32px;
+    }
+    .single_game a {
+        padding: 10px;
+    }
+    .all_games .single_game span {
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .all_games .single_game a img {
+        width: 30px;
     }
 }

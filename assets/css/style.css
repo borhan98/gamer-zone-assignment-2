@@ -325,20 +325,31 @@ li {
     padding: 120px 0;
 }
 .games_link .all_games {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 280px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
 }
 .single_game a {
-    border: 1px solid red;
+    border: 1px solid #E23B2E;
+    /* border: 1px solid transparent; */
     width: fit-content;
     padding: 10px;
     border-radius: 38px;
     display: flex;
     align-items: center;
+    transition: all 0.4s ease;
 }
 .all_games .single_game span {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
     margin-left: 16px;
+    transition: all 0.4s ease;
+}
+.single_game a:hover {
+    border: 1px solid #E23B2E;
+}
+.single_game a:hover span {
+    color: #E23B2E;
 }
