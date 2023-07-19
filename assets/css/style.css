@@ -353,3 +353,74 @@ li {
 .single_game a:hover span {
     color: #E23B2E;
 }
+
+/*----------- Footer Section Start ----------- */
+.footer {
+    background: #0B0223;
+    padding: 125px 0;
+}
+.footer_content {
+    text-align: center;
+}
+.footer_content .logo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer_content .logo h3 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer_content .logo h3 span {
+    color: #FF42A5;
+}
+.footer_menu ul {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(6, 110px);
+    gap: 60px;
+    justify-content: center;
+}
+.footer_menu ul li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.privacy ul {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    gap: 60px;
+    justify-content: center;
+}
+.privacy ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.media ul {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    gap: 50px;
+    justify-content: center;
+}
+.media ul li a {
+    font-size: 30px;
+    color: white;
+}
+.media ul li:nth-child(2) a {
+    color: #1877F2;
+}
+.media ul li:nth-child(3) a {
+    color: #FF0000;
+}
+.footer_content small {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 28px;
+    display: inline-block;
+}

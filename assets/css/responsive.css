@@ -159,6 +159,36 @@
     .all_games .single_game a img {
         width: 20px;
     }
+    .footer {
+        padding: 50px 0;
+    }
+    .footer_content .logo h3 {
+        font-size: 35px;
+    }
+    .footer_menu ul {
+        grid-template-columns: repeat(3, 95px);
+        column-gap: 0px;
+        row-gap: 30px;
+    }
+    .footer_menu ul li a {
+        font-size: 12px;
+    }
+    .media ul {
+        grid-template-columns: repeat(3, 50px);
+        gap: 30px;
+    }
+    .privacy ul {
+        grid-template-columns: repeat(2, 145px);
+        column-gap: 0px;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .privacy ul li a {
+        font-size: 12px;
+    }
+    .footer_content small {
+        font-size: 12px;
+    }
 }
 
 /*--------------- Medium device View -------------------*/
@@ -312,6 +342,12 @@
     .all_games .single_game a img {
         width: 25px;
     }
+    .footer_menu ul {
+        gap: 10px;
+    }
+    .privacy ul {
+        gap: 10px;
+    }
 }
 
 /*--------------- Large device View -------------------*/
@@ -459,6 +495,12 @@
     }
     .all_games .single_game a img {
         width: 25px;
+    }
+    .footer_menu ul {
+        gap: 10px;
+    }
+    .privacy ul {
+        gap: 10px;
     }
 }
 
