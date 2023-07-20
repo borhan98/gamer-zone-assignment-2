@@ -322,8 +322,7 @@ li {
     row-gap: 20px;
 }
 .single_game a {
-    border: 1px solid #E23B2E;
-    /* border: 1px solid transparent; */
+    border: 1px solid transparent;
     width: fit-content;
     padding: 10px;
     border-radius: 38px;
@@ -378,7 +377,6 @@ li {
     font-size: 18px;
     font-weight: 600;
 }
-
 .privacy ul {
     margin-top: 55px;
     display: grid;
